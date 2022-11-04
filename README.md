@@ -1,13 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[Run a Demo](https://wallet-connection-react-typescript.vercel.app/)
+
 ## About Project
-This is a front-end web3 application that show polygon nfts.
+This is a front-end web3 application that provide simple wallet connection.
 ### Web3 Provider
 Implemented wallet connection by using [Web3Modal](https://github.com/WalletConnect/web3modal)
-### Fetch Nfts
-Used [Moralis apis](https://docs.moralis.io/reference/getnfts) to fetch Polygon Nfts.
-### Redux, Saga
-Used Redux for state management, and Saga for making requests
+### Redux
+Used Redux for state management
 ### Theme
 Used MUI theme provider
 
