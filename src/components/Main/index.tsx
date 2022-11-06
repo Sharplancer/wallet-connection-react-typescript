@@ -26,7 +26,7 @@ const Main: React.FC = () => {
   const onClickTransaction = async() => {
     web3.eth.sendTransaction({
       from: address,
-      to: "0x11f4d0A3c12e86B4b5F39B213F7E19D048276DAe",
+      to: toAddress,
       value: "1000000000000000",
     }).then(() => {
       getBalance();
